@@ -67,7 +67,7 @@ public class 단어수학 {
 		int tmpMax = 0;
 		int maxIndex= 0;
 		for(int i =0; i <n; i++) {
-			if(input[i].length()-1>=idx && input[i].length()-1== maxSize) {
+			if(input[i].length()-1>=idx && input[i].length()== maxSize) {
 				alphabet[(input[i].charAt(idx))-'A'].cnt++;
 				alphabet[(input[i].charAt(idx))-'A'].word=input[i].charAt(idx);
 			}

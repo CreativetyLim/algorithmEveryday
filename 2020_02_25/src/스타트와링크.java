@@ -24,10 +24,6 @@ public class 스타트와링크 {
 		if(idx == visit.length/2) {
 			int s=0;
 			int l = 0;
-			/*
-			 * for(int i =0; i <visit.length; i++) { if(visit[i]) System.out.print(i+ " ");
-			 * } System.out.println();
-			 */
 			for(int i =0; i<visit.length-1; i++) {
 					for(int j =i+1; j<visit.length; j++) {
 						if(visit[i] &&visit[j]) {

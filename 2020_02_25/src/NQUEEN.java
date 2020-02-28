@@ -18,8 +18,6 @@ public class NQUEEN {
 		cnt++;
 			return;
 		}
-		
-		
 		for(int i=0; i<n; i++) {
 			//promise를 만족해야 다음 재귀를 돔
 			if(promise(idx,i)) {   
