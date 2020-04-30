@@ -34,7 +34,7 @@ public class ¾ËÆÄºª {
 		}
 		int nx = 0;
 		int ny = 0;
-		for(int k=0; k<4; k++) {
+		for(int k=0; k<4; k++) { 
 			nx = i + dirX[k];
 			ny = j + dirY[k];
 			int flag = 0;

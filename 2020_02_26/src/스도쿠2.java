@@ -60,8 +60,10 @@ public class ½ºµµÄí2 {
 			}
 		}
 		for(int i =0; i<map.length; i++) {
-			if(map[i][col] !=0 && map[i][col] == value ) {
-				return false;
+			for(int j=0; j<map.length; j++) {
+				if(i/3== row/3 && j/3 ==col/3) {
+					
+				}
 			}
 		}
 		
